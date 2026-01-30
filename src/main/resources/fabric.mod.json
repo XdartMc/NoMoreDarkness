@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nomoredarkness",
+  "version": "${version}",
+  "name": "NoMoreDarkness",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nomoredarkness/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.xdart.nomoredarkness.client.NoMoreDarknessClient"
+    ],
+    "main": [
+      "dev.xdart.nomoredarkness.NoMoreDarkness"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
